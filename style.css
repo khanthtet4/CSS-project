@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: all;
+}
+div#nav div.nav_left img{
+	width: 60px;
+	height: 60px;
+}
+div#nav div.nav_left h1{
+	font-family: logo;
+	display: inline-block;
+	margin:0 10px;
+	vertical-align: bottom;
+}
+div#nav div.nav_left{
+	float: left;
+}
+div#nav div.nav_right{
+	float: right;
+	margin-top: 20px;
+}
+div.nav_right a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px 30px;
+	color: purple;
+}
+a.active{
+	color: #fff !important;
+	background-color: #080808;
+	border-radius: 15px 0px 15px 0px;
+}
+.clear{
+	clear: both;
+}
+div#banner img{
+	width: 100%;
+	height: 650px;
+	object-fit: cover;
+}
+div#banner i{
+	font-size: 130px;
+	color:black;
+	position: absolute;
+	padding: 30px;
+	top:30%;
+	left: 45%;
+}
+div.quote{
+	font-family: unicode;
+	background-color: rgba(255,255,255,0.5);
+	font-size: 30px;
+	position: absolute;
+	top: 60%;
+	left: 20%;
+	padding: 40px;
+}
+#one{
+	margin-top: 80px;
+}
+div p{
+	padding: 30px 0px 30px 0px;
+}
+#two{
+	box-sizing: border-box;
+	border-bottom: 1px solid black;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+.grid{
+	display:grid;
+	margin: auto auto auto;
+	margin-left: 360px;
+}
+.grid h1{
+	padding: 20px 0px 20px 0px;
+	margin-left: 200px;
+}
+.grid1{
+	width: 30%;
+	float: left;
+}
